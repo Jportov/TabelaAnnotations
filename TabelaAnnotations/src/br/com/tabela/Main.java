@@ -12,6 +12,8 @@ public class Main {
 
             // Imprimir o valor da anotação
             System.out.println("Nome da tabela: " + tabelaAnnotation.valor());
+        } else {
+            System.out.println("A anotação @Tabela não está presente na classe Cliente.");
         }
     }
 }
